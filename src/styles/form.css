@@ -1,0 +1,15 @@
+.form-titulo {
+    font-weight: 600 ;
+    margin-bottom: 5px;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 900px){
+  form {
+    width: 90%;
+  }
+}
