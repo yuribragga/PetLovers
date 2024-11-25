@@ -1,0 +1,55 @@
+ul {
+    list-style-type: none; 
+}
+
+  .titulo-home {
+    color: #333; 
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .subtitulo-home{
+    color: #666; 
+    text-align: center;
+  }
+  
+  .recursos, .contatos {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+  .titulo-recursos, .titulo-contatos {
+    color: #333; 
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lista-recursos, .lista-contatos {
+    margin-bottom: 8px;
+    list-style-type: none;
+    margin-left: 20px;
+  }
+  
+  .navegacao {
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: 900px){
+    .navegacao {
+      width: 90%;
+    }
+  }
+
+
+  
