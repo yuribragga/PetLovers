@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.container div {
+    width: 48%;
+    padding: 1%;
+    border:  1px black solid;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.container h6 {
+    text-align: center;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+.botao a:hover{
+    background-color: rgb(231, 226, 226);
+}
+
+.botao a{
+    color: black;
+    border:  1px black solid;
+    padding: 1%;
+    border-radius: 5%;
+
+}
