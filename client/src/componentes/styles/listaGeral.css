@@ -1,0 +1,90 @@
+.custom-link {
+    text-decoration: none !important; 
+    color: inherit !important; 
+}
+
+.custom-link:hover {
+    background-color: transparent !important;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 900px){
+  form {
+    width: 90%;
+  }
+}
+
+.aviso {
+  text-align: center;
+}
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.subtitulo {
+  font-weight: 600 ;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.botao-comprar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px;
+  color: white; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #6363fa;
+  width: 120px
+} 
+
+
+.btn-group {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  transition: border 0.3s ease;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.increment-btn, .decrement-btn {
+  width: 50px !important;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4097fe;
+  background-color: #f3f9ff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.increment-btn, .decrement-btn:hover {
+    background-color: #f3f9ff;
+}
+
+.count {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #F5F8FB;
+  border-right: 1px solid #F5F8FB;
+}
+
+.btn-group-vertical>.btn, .btn-group>.btn {
+  position: relative;
+  flex: 0;
+}
